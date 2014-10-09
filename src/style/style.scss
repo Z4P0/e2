@@ -1,0 +1,16 @@
+// base styles
+@import "pieces/vars";
+@import "pieces/mixins";
+@import "pieces/classes";
+@import "pieces/normalize";
+@import "pieces/base";
+@import "pieces/typography";
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#canvas {
+  display: block;
+  // background: #444;
+}
